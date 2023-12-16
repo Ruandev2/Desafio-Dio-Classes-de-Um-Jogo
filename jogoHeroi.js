@@ -5,7 +5,6 @@ class usuarioHeroi{
         this.idadeHeroi = idadeHeroi;
         this.tipoHeroi = tipoHeroi;
         this.attck = null
-        
     }
     //Tipos de Ataques
    atackHero(){
@@ -27,7 +26,6 @@ class usuarioHeroi{
             // Esse é um ataque gênerico que será usado sempre que o heroi especificado não corresponder aos do case do switch
             this.attck = "***** Furia de Tita *****";
         }                                   
-
     }
     //Menssagem do tipo de ataque
     attckJogador(){
